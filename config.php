@@ -16,7 +16,6 @@ $NumeBazaDate = $_ENV['DB_NAME'];
 
 $conexiune = mysqli_connect($AdresaBazaDate, $UtilizatorBazaDate, $ParolaBazaDate, $NumeBazaDate) or die("Can not connect to MySQL Server");
 
-
 function addentities($data)
 {
     if (trim($data) != '') {
