@@ -1,0 +1,217 @@
+body{
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+img {
+	border: 0;
+}
+.mini {
+	border:solid #CCCCCC 1px;
+}
+.mini:hover {
+	border:solid #999999 1px;
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+	border: 0;
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+a:hover,a:active {
+	font-weight:bold;
+	color: #3D4272;
+}
+.header_left {
+	padding: 0px 0px 0px 10px;
+	font-size:14px;
+	font-weight:bold;
+}
+.left {
+	padding-top:4px;
+}
+.left a {
+	text-decoration: none;
+	border: 0;
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	display:inline-block;
+	padding-left:10px;
+}
+.left a:hover,a:active {
+	color: #3D4272;
+	font-weight:bold;
+	background:transparent url(images/arrow.png) center left no-repeat;
+}
+.linkdiv ul{
+	margin: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	list-style-type: none;
+	border: 0;
+	background: url(images/anunt_19.gif);
+	background-position: left;
+	background-repeat: repeat-y;
+	width:239px;
+	font-size: 12px;
+}
+	
+.linkdiv ul li{
+	width: 239px;
+	height: 16px;
+	position: relative;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: url(images/anunt_19.gif);
+	background-position: left;
+	background: url(images/anunt_21.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 12px;
+}
+.linkdiv ul li:hover{
+	width: 239px;
+	height: 16px;
+	background-color: #F2F8F9;
+	background-image: url(images/anunt_19.gif);
+	background-position: left;
+	background-repeat: repeat-y;
+	font-size: 12px;
+}
+.linkdiv ul li ul{
+	position: absolute;
+	top: 0;
+	left: -1;
+	visibility: hidden;
+	border-left-width: 0px;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background: #F2F8F9;
+	width: 280px;
+	font-size: 12px;
+}
+
+.linkdiv ul li ul li{
+	border: 0;
+	border-bottom: 1px solid #CCCCCC;
+	width: 280px;
+	font-size: 12px;
+}
+.linkdiv ul li ul li:hover{
+	width: 280px;
+	font-size: 12px;
+}
+
+.linkdiv ul li a{
+	overflow: auto;
+	text-decoration: none;
+	border: 0;
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	display:inline-block;
+	padding-left:10px;
+}
+
+.linkdiv ul li a:hover,a:active{
+	color: #3D4272;
+	font-family: Tahoma;
+	font-weight: bold;
+	background:transparent url(images/arrow.png) center left no-repeat;
+	font-size: 12px;
+}
+
+
+.linkdiv ul li ul li a{
+	display: block;
+	overflow: auto;
+	color: black;
+	text-decoration: none;
+	border: 0;
+	color: #000000;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	display:inline-block;
+	padding-left:10px;
+	width:280px;
+}
+
+.linkdiv ul li ul lu a:hover,a:active{
+	color: #3D4272;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 12px;
+}
+.login {
+	width:103px;
+	height:27px;
+    border: 0;
+	background:url(images/anunt_39.gif);
+}
+.login2 {
+	width:51px;
+	height:52px;
+    border: 0;
+	background:url(images/anunt_60.gif);
+}
+hr {
+	size:1;
+	color:#CCCCCC;
+}
+.index {
+	border:solid #CCCCCC 1px;
+}
+.index:hover {
+	border:solid #999999 1px;
+	cursor: pointer;
+}
+.index a {
+	font-size: 12px;
+	font-weight: normal;
+	word-wrap: break-word;
+}
+h1 {
+	font-size: 20px;
+	height: 24px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0px;
+}
+h2 {
+	font-size: 18px;
+	height: 18px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin: 0px;
+}
+h3 {
+	font-size: 14px;
+}
+form {
+	padding: 0px;
+	margin: 0px;
+}
+.cauta{
+	background-image:url(images/buton.gif);
+	color:#FFFFFF;
+	text-shadow: #000000;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	border: solid #666666 1px;
+	height: 26px;
+}
